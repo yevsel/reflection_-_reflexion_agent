@@ -1,0 +1,24 @@
+[project]
+name = "reflection-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Yevoo Justice Selasi", email = "sel3491justice@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=1.4.2",
+    "langchain-openai>=1.6.6",
+    "langchain-tavily>=0.2.18",
+    "langgraph>=1.2.12",
+    "langgraph-cli[inmem]>=0.4.32",
+    "python-dotenv>=1.2.3",
+]
+
+[project.scripts]
+reflection-agent = "reflection_agent:main"
+
+
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"

@@ -1,0 +1,8 @@
+{
+  "graphs": {
+    "reflection_graph": "./src/reflection_graph.py:graph",
+    "reflection_graph_manual": "./src/main.py:graph"
+  },
+  "dependencies": ["."],
+  "env": ".env"
+}

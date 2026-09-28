@@ -1,0 +1,7 @@
+{
+  "graphs": {
+    "reflexion_graph": "./reflexion_graph.py:graph"
+  },
+  "dependencies": ["."],
+  "env": ".env"
+}
